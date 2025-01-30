@@ -1,4 +1,3 @@
-/*
 import { MongoClient, ObjectId } from "npm:mongodb";
 
 
@@ -19,7 +18,7 @@ const apiNinjaKey = Deno.env.get('API_KEY')
 if (!apiNinjaKey) {
   console.error('Api key inválida');
 }
-*/
+
 
 const handler = async(req : Request):Promise<Response> =>{
   const method = req.method
