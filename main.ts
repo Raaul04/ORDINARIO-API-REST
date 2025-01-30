@@ -1,8 +1,8 @@
+/*
 import { MongoClient, ObjectId } from "npm:mongodb";
 
 
 const mongoURL = Deno.env.get('MONGO_URL')
-
 if (!mongoURL) {
   console.error('Url inválida');
   throw new Error('Url inválida');
@@ -19,7 +19,7 @@ const apiNinjaKey = Deno.env.get('API_KEY')
 if (!apiNinjaKey) {
   console.error('Api key inválida');
 }
-
+*/
 
 const handler = async(req : Request):Promise<Response> =>{
   const method = req.method
